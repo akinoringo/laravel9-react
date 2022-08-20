@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import { Button } from '@material-ui/core';
 
 const About = () => {
@@ -8,9 +7,9 @@ const About = () => {
         <div className="row justify-content-center">
             <div className="col-md-8">
                 <div className="card">
-                    <div className="card-header">React導入</div>
+                    <div className="card-header">React導入, route定義</div>
                     <div className="card-body">Im an example component!</div>
-                    <Button color="primary" variant="contained">Material Button</Button>
+                    <Button color="secondary" variant="contained" href={`/`}>Homeに遷移ボタン</Button>
                 </div>
             </div>
         </div>
